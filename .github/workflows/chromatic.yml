@@ -19,7 +19,5 @@ jobs:
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
       - run: yarn chromatic --project-token="chpt_b8e7b61040318f5"
-        with:
-          #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
-          projectToken: ${{ secrets.chpt_b8e7b61040318f5 }}
+        
       
