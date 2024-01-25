@@ -1,13 +1,5 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
-import { withoutVitePlugins } from '@storybook/builder-vite'
-
 const config = {
-  async viteFinal(config) {
-    return {
-        ...config,
-        plugins: await withoutVitePlugins(config.plugins, ['vite:lib-inject-css']),
-    }
-},
   stories: [
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
