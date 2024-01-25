@@ -35,6 +35,7 @@ export const Large = {
     size: 'large',
     label: 'Button',
   },
+  
 };
 
 export const Small = {
