@@ -35,13 +35,6 @@ export const Large = {
     size: 'large',
     label: 'Button',
   },
-  parameters: {
-    design: {
-      type: "figspec",
-      url: "https://www.figma.com/file/Lss6kFA8LivdZxt8d65wiN/Untitled?type=design&node-id=1-3&mode=dev",
-      accessToken: "figd_7zCpq7xE5jBdVsY_-QSIAAf5oelR3Ubbh1wi6yEX"
-    },
-  },
   
 };
 
