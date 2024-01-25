@@ -5,7 +5,6 @@ const jsonPath = './tokens/tokens.json';
 //const cssFolderPath = 'C:\\Users\\robert.mauger\\new-okt-web-tokens-main\\public\\assets\\css\\';
 const cssFolderPath = 'public/assets/css/';
 
-
 const json = require(jsonPath);
 
 function processTypographyValues(values) {
