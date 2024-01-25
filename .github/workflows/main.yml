@@ -6,12 +6,6 @@ jobs:
     steps:
       - run: node --version
       - run: npm --version
-      - contents: write
-      - uses: actions/checkout@v4
-      - run: npm install    
+      - uses: actions/checkout@v3
+      - run: npm install
       - run: node app.js
-       uses: stefanzweifel/git-auto-commit-action@v5
-         with:
-            commit_message: Update design tokens
-            branch: main
-            
