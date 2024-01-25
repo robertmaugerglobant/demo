@@ -4,6 +4,10 @@ name: 'Chromatic Deployment'
 # Event for the workflow
 on: push
 
+env:
+  GITHUB_TOKEN: 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
+  CHROMATIC_PROJECT_TOKEN: chpt_b8e7b61040318f5
+
 # List of jobs
 jobs:
   test:
@@ -18,6 +22,9 @@ jobs:
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
-      - run: yarn chromatic --project-token="chpt_b8e7b61040318f5"
+        with:
+          #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
         
       
