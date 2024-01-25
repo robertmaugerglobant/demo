@@ -1,0 +1,132 @@
+/* Typography Mixins */
+@import 'global-styles.css';
+
+@media screen and (min-width: 1312px) {
+@mixin display-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-128);
+  line-height: var(--global-line-height-100);
+  letter-spacing: var(--global-letter-spacing-neg3);
+}
+
+@mixin display-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-112);
+  line-height: var(--global-line-height-100);
+  letter-spacing: var(--global-letter-spacing-neg3);
+}
+
+@mixin display-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-96);
+  line-height: var(--global-line-height-100);
+  letter-spacing: var(--global-letter-spacing-neg3);
+}
+
+@mixin display-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-80);
+  line-height: var(--global-line-height-110);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-72);
+  line-height: var(--global-line-height-111);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+
+}
+@media screen and (max-width: 1311px) {
+@mixin display-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-80);
+  line-height: var(--global-line-height-110);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-80);
+  line-height: var(--global-line-height-110);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-72);
+  line-height: var(--global-line-height-111);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-72);
+  line-height: var(--global-line-height-112);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-64);
+  line-height: var(--global-line-height-112);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+
+}
+@media screen and (max-width: 834px) {
+@mixin display-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-56);
+  line-height: var(--global-line-height-114);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-56);
+  line-height: var(--global-line-height-114);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-56);
+  line-height: var(--global-line-height-114);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-48);
+  line-height: var(--global-line-height-116);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin display-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-48);
+  line-height: var(--global-line-height-116);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+
+}
