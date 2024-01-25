@@ -28,5 +28,8 @@
     "storybook": "^7.6.10"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "demo@1.0.0"
+  "_id": "demo@1.0.0",
+  "dependencies": {
+    "@storybook/builder-vite": "^7.6.10"
+  }
 }
