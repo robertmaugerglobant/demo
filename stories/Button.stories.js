@@ -39,7 +39,7 @@ export const Large = {
     design: {
       type: "figspec",
       url: "https://www.figma.com/file/Lss6kFA8LivdZxt8d65wiN/Untitled?type=design&node-id=1-3&mode=dev",
-      accessToken: "figd_7zCpq7xE5jBdVsY_-QSIAAf5oelR3Ubbh1wi6yEX"
+      accessToken: "figd_ZW1iNVy-WiR-xdvLcvnXYFvdRvv90nBF8B6hFIOv"
     },
   },
   
@@ -54,7 +54,7 @@ export const Small = {
     design: {
       type: "figspec",
       url: "https://www.figma.com/file/Lss6kFA8LivdZxt8d65wiN/Untitled?type=design&node-id=1-3&mode=dev",
-      accessToken: "figd_7zCpq7xE5jBdVsY_-QSIAAf5oelR3Ubbh1wi6yEX"
+      accessToken: "figd_ZW1iNVy-WiR-xdvLcvnXYFvdRvv90nBF8B6hFIOv"
     },
   },
 };
