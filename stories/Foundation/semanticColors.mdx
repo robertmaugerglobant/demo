@@ -1,0 +1,30 @@
+import { Meta } from "@storybook/blocks";
+import { ColorPalette, ColorItem } from "@storybook/blocks";
+import '/public/assets/css/_variables-global-light.css';
+
+<Meta title="Foundation/Color/Sematic Colors" />
+
+<h1>Sematic Color Tokens</h1>
+
+<h2>Surface</h2>
+
+<ColorPalette>
+    <ColorItem title="Primary" subtitle="Token: --oktColorSurfacePrimary" colors={{"Primary": "var(--oktColorSurfacePrimary)"}} />
+    <ColorItem title="Secondary" subtitle="Token: --oktColorSurfaceSecondary" colors={{"Secondary": "var(--oktColorSurfaceSecondary)"}} />
+    <ColorItem title="Tertiary" subtitle="Token: --oktColorSurfaceTertiary" colors={{"Tertiary": "var(--oktColorSurfaceTertiary)"}} />
+    <ColorItem title="Brand Primary" subtitle="Token: --oktColorSurfaceBrandPrimary" colors={{"Brand Primary": "var(--oktColorSurfaceBrandPrimary)"}} />
+    <ColorItem title="Brand Secondary" subtitle="Token: --oktColorSurfaceBrandSecondary" colors={{"Brand Secondary": "var(--oktColorSurfaceBrandSecondary)"}} />
+    <ColorItem title="Brand Tertiary" subtitle="Token: --oktColorSurfaceBrandTertiary" colors={{"Brand Tertiary": "var(--oktColorSurfaceBrandTertiary)"}} />
+</ColorPalette>
+
+<h2>Content</h2>
+
+<ColorPalette>
+    <ColorItem title="Primary" subtitle="Token: --oktColorContentPrimary" colors={{"Primary": "var(--oktColorContentPrimary)"}} />
+    <ColorItem title="Primary Inverce" subtitle="Token: --oktColorContentPrimaryInv" colors={{"Primary Inverce": "var(--oktColorContentPrimaryInv)"}} />
+    <ColorItem title="Secondary" subtitle="Token: --oktColorContentSecondary" colors={{"Secondary": "var(--oktColorContentSecondary)"}} />
+    <ColorItem title="Secondary Inverce" subtitle="Token: --oktColorContentSecondaryInv" colors={{"Secondary Inverce": "var(--oktColorContentSecondaryInv)"}} />
+    <ColorItem title="Brand Primary" subtitle="Token: --oktColorContentBrandPrimary" colors={{"Brand Primary": "var(--oktColorContentBrandPrimary)"}} />
+    <ColorItem title="Brand Secondary" subtitle="Token: --oktColorContentBrandSecondary" colors={{"Brand Secondary": "var(--oktColorContentBrandSecondary)"}} />
+    <ColorItem title="Brand Tertiary" subtitle="Token: --oktColorContentBrandTertiary" colors={{"Brand Tertiary": "var(--oktColorContentBrandTertiary)"}} />
+</ColorPalette>
