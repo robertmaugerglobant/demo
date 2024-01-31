@@ -1,6 +1,6 @@
 @import 'global-styles.css';
 
-@import 'okta-styles.css';
+@import 'okta-theme.css';
 
 :root {
 --demo-button-color-surface-primary-resting: #FAFAFA;
