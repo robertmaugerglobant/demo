@@ -122,7 +122,7 @@ Object.keys(topLevelCategory).forEach((category) => {
  
   if (cssFilePath && cssContent.trim() !== '') {
     const importStatement = isGlobal ? '' : `@import 'global-styles.css';\n`;
-    const importStatementNotOkta = cssFilePath === 'public/assets/css/okta-theme.css' ? '' : `@import 'okta-styles.css';\n`;
+    const importStatementNotOkta = cssFilePath === 'public/assets/css/okta-theme.css' ? '' : `@import 'okta-theme.css';\n`;
     fs.writeFileSync(cssFilePath, `${importStatement}\n${importStatementNotOkta}\n:root {\n${cssContent}\n}\n`, { flag: 'w' });
     console.log(`CSS file written to: ${cssFilePath}`);
   }
