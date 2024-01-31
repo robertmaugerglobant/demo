@@ -79,7 +79,7 @@ function processCategory(category, path, isGlobal) {
         .replace(/^System\//, '')
         .replace(/-value$/, '');
 
-      if (isGlobal) {
+      if (isGlobal || currentPath.startsWith('Components/button/')) {
         cssContent += `--${sanitizedVariable.toLowerCase()}: ${value};\n`;
       } else {
         const globalVariable = value.replace(/{|}/g, '').replace(/\./g, '-').toLowerCase();
@@ -104,6 +104,9 @@ function getCSSFilePath(category) {
   else if (category.startsWith('Components/button/demo')) {
     return `${cssFolderPath}button-theme.css`;
   }
+  
+  
+  
   else {
     console.log(`Unsupported category: ${category}`);
     return null;
