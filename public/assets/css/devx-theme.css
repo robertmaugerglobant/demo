@@ -1,5 +1,7 @@
 @import 'global-styles.css';
 
+@import 'okta-styles.css';
+
 :root {
 --devx-color-surface-primary: var(--global-colors-gray-900);
 --devx-color-surface-secondary: var(--global-colors-gray-750);

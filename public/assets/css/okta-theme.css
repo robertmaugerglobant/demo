@@ -1,5 +1,6 @@
 @import 'global-styles.css';
 
+
 :root {
 --okta-color-surface-primary: var(--global-colors-neutral-50);
 --okta-color-surface-secondary: var(--global-colors-neutral-200);

@@ -1,5 +1,7 @@
 @import 'global-styles.css';
 
+@import 'okta-styles.css';
+
 :root {
 --oktane-color-surface-primary: var(--global-colors-gray-900);
 --oktane-color-surface-secondary: var(--global-colors-gray-750);
