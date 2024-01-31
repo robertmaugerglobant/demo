@@ -73,10 +73,13 @@ function processCategory(category, path, isGlobal) {
     } else if (key === 'value') {
       const sanitizedVariable = currentPath
         .replace(/^semantic\//, '')
+        .replace(/^Components\//, '')
+        .replace(/^button\//, '')
+        .replace(/^demo\//, '')   
         .replace(/^System\//, '')
         .replace(/-value$/, '');
 
-      if (isGlobal) {
+      if (isGlobal || currentPath.startsWith('Components/button/')) {
         cssContent += `--${sanitizedVariable.toLowerCase()}: ${value};\n`;
       } else {
         const globalVariable = value.replace(/{|}/g, '').replace(/\./g, '-').toLowerCase();
@@ -97,7 +100,14 @@ function getCSSFilePath(category) {
     return `${cssFolderPath}okta-theme.css`;
   } else if (category.startsWith('semantic/devx')) {
     return `${cssFolderPath}devx-theme.css`;
-  } else {
+  } 
+  else if (category.startsWith('Components/button/demo')) {
+    return `${cssFolderPath}button-theme.css`;
+  }
+  
+  
+  
+  else {
     console.log(`Unsupported category: ${category}`);
     return null;
   }
@@ -109,10 +119,11 @@ Object.keys(topLevelCategory).forEach((category) => {
   const isGlobal = category.startsWith('System/global');
   const cssContent = processCategory(topLevelCategory[category], category, isGlobal);
   const cssFilePath = getCSSFilePath(category);
-
+ 
   if (cssFilePath && cssContent.trim() !== '') {
     const importStatement = isGlobal ? '' : `@import 'global-styles.css';\n`;
-    fs.writeFileSync(cssFilePath, `${importStatement}\n:root {\n${cssContent}\n}\n`, { flag: 'w' });
+    const importStatementNotOkta = cssFilePath === 'public/assets/css/okta-theme.css' ? '' : `@import 'okta-theme.css';\n`;
+    fs.writeFileSync(cssFilePath, `${importStatement}\n${importStatementNotOkta}\n:root {\n${cssContent}\n}\n`, { flag: 'w' });
     console.log(`CSS file written to: ${cssFilePath}`);
   }
 });
