@@ -3,8 +3,8 @@
 @import 'okta-theme.css';
 
 :root {
---demo-button-color-surface-primary-resting: #657349;
---demo-button-color-content-primary-resting: {color.content.on-drak.primary};
+--demo-button-color-surface-primary-resting: #3F59E4;
+--demo-button-color-content-primary-resting: {color.content.primary-inverse};
 --demo-button-space-medium-gap: 8px;
 --demo-button-space-medium-padding-leftandright: 32px;
 --demo-button-space-medium-padding-topandbottom: 12px;
