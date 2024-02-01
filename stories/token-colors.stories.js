@@ -29,7 +29,7 @@ export const Large = {
         type: "figspec",
         
         url: "https://www.figma.com/file/zgujqRz7dRZAkhjkZtwcLq/Design-System%3A-Tokens?type=design&node-id=363-12638&mode=dev",
-        accessToken: "figd_-4NvRPBuiqQGwYfEvIKJaBcZzxnA_kWrDtQrN4RI"
+        accessToken: "figd_2kyzUmtXaublKRbvM73YLpwW3QjdvQh1KAFn7agu"
       },
     },
     
