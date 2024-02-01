@@ -2,7 +2,7 @@
 name: 'Chromatic Deployment'
 
 # Event for the workflow
-on: pull_request
+on: push
 
 env:
   GITHUB_TOKEN: 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
