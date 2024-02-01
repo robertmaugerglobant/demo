@@ -39,8 +39,10 @@ export const Large = {
     design: {
       type: "figspec",
       
-      url: "https://www.figma.com/file/Lss6kFA8LivdZxt8d65wiN/Untitled?type=design&node-id=1-3&mode=dev",
+      url: "https://www.figma.com/file/zgujqRz7dRZAkhjkZtwcLq/Design-System%3A-Tokens?type=design&node-id=1294-1126&mode=dev",
       accessToken: "figd_2kyzUmtXaublKRbvM73YLpwW3QjdvQh1KAFn7agu"
+
+      
     },
   },
   

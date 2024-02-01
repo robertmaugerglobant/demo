@@ -19,7 +19,7 @@ export default {
 //   },
 // };
 
-export const Large = {
+export const Colors = {
     args: {
       size: 'large',
       label: 'Button',
@@ -35,4 +35,4 @@ export const Large = {
     
   };
 
-export const Colors = {};
+// export const Colors = {};
