@@ -1,7 +1,7 @@
 @import '../public/assets/css/global-styles.css';
+
 .e363_12638 { 
-	/* background-color:rgba(255, 255, 255, 1); */ 
-    background-color:var( --global-colors-blue-50);
+	background-color:rgba(255, 255, 255, 1); 
 	width:1000px;
 	height:11314px;
 	
@@ -71,7 +71,7 @@
 	letter-spacing:0;
 }
 .e363_9421 { 
-	background-color:rgba(242.00000077486038, 246.0000005364418, 255, 1);
+    background-color:var( --global-colors-blue-50);
 	width:200px;
 	height:40px;
 	position:absolute;
