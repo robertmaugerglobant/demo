@@ -2,8 +2,10 @@
 name: 'Chromatic Deployment'
 
 # Event for the workflow
-on: push
-
+on:
+  push:
+    branches:
+      - main
 
 env:
   GITHUB_TOKEN: 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
