@@ -44,6 +44,90 @@
 
 
 }
+@media screen and (min-width: 1312px) {
+@mixin ttile {
+@mixin ttile-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-64);
+  line-height: var(--global-line-height-112);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin ttile-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-56);
+  line-height: var(--global-line-height-114);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin title-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-48);
+  line-height: var(--global-line-height-116);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin ttile-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-40);
+  line-height: var(--global-line-height-120);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+}
+
+
+}
+@media screen and (min-width: 1312px) {
+@mixin body {
+@mixin body-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-32);
+  line-height: var(--global-line-height-136);
+  letter-spacing: var(--global-letter-spacing-neg1);
+}
+
+@mixin body-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin body-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin body-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt25);
+}
+
+@mixin body-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-14);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt5);
+}
+
+}
+
+
+}
 @media screen and (max-width: 1311px) {
 @mixin display-1 {
   font-family: var(--global-font-family-primary);
@@ -87,6 +171,90 @@
 
 
 }
+@media screen and (max-width: 1311px) {
+@mixin ttile {
+@mixin ttile-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-56);
+  line-height: var(--global-line-height-114);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin ttile-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-48);
+  line-height: var(--global-line-height-116);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin title-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-40);
+  line-height: var(--global-line-height-120);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin ttile-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-40);
+  line-height: var(--global-line-height-120);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+}
+
+
+}
+@media screen and (max-width: 1311px) {
+@mixin body {
+@mixin body-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin body-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin body-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin body-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt25);
+}
+
+@mixin body-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-14);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt5);
+}
+
+}
+
+
+}
 @media screen and (max-width: 834px) {
 @mixin display-1 {
   font-family: var(--global-font-family-primary);
@@ -126,6 +294,90 @@
   font-size: var(--global-font-size-48);
   line-height: var(--global-line-height-116);
   letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+
+}
+@media screen and (max-width: 834px) {
+@mixin ttile {
+@mixin ttile-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-48);
+  line-height: var(--global-line-height-116);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin ttile-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-40);
+  line-height: var(--global-line-height-120);
+  letter-spacing: var(--global-letter-spacing-neg2);
+}
+
+@mixin title-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-32);
+  line-height: var(--global-line-height-136);
+  letter-spacing: var(--global-letter-spacing-neg1);
+}
+
+@mixin ttile-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-32);
+  line-height: var(--global-line-height-136);
+  letter-spacing: var(--global-letter-spacing-neg1);
+}
+
+}
+
+
+}
+@media screen and (max-width: 834px) {
+@mixin body {
+@mixin body-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin body-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin body-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin body-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt25);
+}
+
+@mixin body-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-400);
+  font-size: var(--global-font-size-14);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt5);
+}
+
 }
 
 
