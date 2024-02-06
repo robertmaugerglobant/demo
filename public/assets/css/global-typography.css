@@ -45,8 +45,8 @@
 
 }
 @media screen and (min-width: 1312px) {
-@mixin ttile {
-@mixin ttile-1 {
+@mixin title {
+@mixin title-1 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-64);
@@ -54,7 +54,7 @@
   letter-spacing: var(--global-letter-spacing-neg2);
 }
 
-@mixin ttile-2 {
+@mixin title-2 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-56);
@@ -70,7 +70,7 @@
   letter-spacing: var(--global-letter-spacing-neg2);
 }
 
-@mixin ttile-4 {
+@mixin title-4 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-40);
@@ -128,6 +128,52 @@
 
 
 }
+@media screen and (min-width: 1312px) {
+@mixin strong {
+@mixin strong-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-32);
+  line-height: var(--global-line-height-136);
+  letter-spacing: var(--global-letter-spacing-neg1);
+}
+
+@mixin strong-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin strong-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin strong-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt25);
+}
+
+@mixin strong-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-14);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt5);
+}
+
+}
+
+
+}
 @media screen and (max-width: 1311px) {
 @mixin display-1 {
   font-family: var(--global-font-family-primary);
@@ -172,8 +218,8 @@
 
 }
 @media screen and (max-width: 1311px) {
-@mixin ttile {
-@mixin ttile-1 {
+@mixin title {
+@mixin title-1 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-56);
@@ -181,7 +227,7 @@
   letter-spacing: var(--global-letter-spacing-neg2);
 }
 
-@mixin ttile-2 {
+@mixin title-2 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-48);
@@ -197,7 +243,7 @@
   letter-spacing: var(--global-letter-spacing-neg2);
 }
 
-@mixin ttile-4 {
+@mixin title-4 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-40);
@@ -255,6 +301,52 @@
 
 
 }
+@media screen and (max-width: 1311px) {
+@mixin strong {
+@mixin strong-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin strong-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin strong-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin strong-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt25);
+}
+
+@mixin strong-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-14);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt5);
+}
+
+}
+
+
+}
 @media screen and (max-width: 834px) {
 @mixin display-1 {
   font-family: var(--global-font-family-primary);
@@ -299,8 +391,8 @@
 
 }
 @media screen and (max-width: 834px) {
-@mixin ttile {
-@mixin ttile-1 {
+@mixin title {
+@mixin title-1 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-48);
@@ -308,7 +400,7 @@
   letter-spacing: var(--global-letter-spacing-neg2);
 }
 
-@mixin ttile-2 {
+@mixin title-2 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-40);
@@ -324,7 +416,7 @@
   letter-spacing: var(--global-letter-spacing-neg1);
 }
 
-@mixin ttile-4 {
+@mixin title-4 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-400);
   font-size: var(--global-font-size-32);
@@ -382,3 +474,90 @@
 
 
 }
+@media screen and (max-width: 834px) {
+@mixin strong {
+@mixin strong-1 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-24);
+  line-height: var(--global-line-height-135);
+  letter-spacing: var(--global-letter-spacing-0);
+}
+
+@mixin strong-2 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin strong-3 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-pt5);
+}
+
+@mixin strong-4 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt25);
+}
+
+@mixin strong-5 {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-14);
+  line-height: var(--global-line-height-140);
+  letter-spacing: var(--global-letter-spacing-1pt5);
+}
+
+}
+
+
+}
+@mixin functional {
+@mixin overline {
+@mixin default {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-100);
+  letter-spacing: var(--global-letter-spacing-12);
+}
+
+@mixin devex {
+  font-family: var(--global-font-family-mono);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-14);
+  line-height: var(--global-line-height-100);
+  letter-spacing: var(--global-letter-spacing-10);
+}
+
+}
+
+@mixin label {
+@mixin large {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-20);
+  line-height: var(--global-line-height-100);
+  letter-spacing: var(--global-letter-spacing-1);
+}
+
+@mixin regular {
+  font-family: var(--global-font-family-primary);
+  font-weight: var(--global-font-weight-500);
+  font-size: var(--global-font-size-16);
+  line-height: var(--global-line-height-100);
+  letter-spacing: var(--global-letter-spacing-2);
+}
+
+}
+
+}
+
