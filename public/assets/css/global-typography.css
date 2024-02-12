@@ -129,8 +129,8 @@
 
 }
 @media screen and (min-width: 1312px) {
-@mixin strong {
-@mixin strong-1 {
+@mixin medium {
+@mixin medium-1 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-32);
@@ -138,7 +138,7 @@
   letter-spacing: var(--global-letter-spacing-neg1);
 }
 
-@mixin strong-2 {
+@mixin medium-2 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-24);
@@ -146,7 +146,7 @@
   letter-spacing: var(--global-letter-spacing-0);
 }
 
-@mixin strong-3 {
+@mixin medium-3 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-20);
@@ -154,7 +154,7 @@
   letter-spacing: var(--global-letter-spacing-pt5);
 }
 
-@mixin strong-4 {
+@mixin medium-4 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-16);
@@ -162,7 +162,7 @@
   letter-spacing: var(--global-letter-spacing-1pt25);
 }
 
-@mixin strong-5 {
+@mixin medium-5 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-14);
@@ -302,8 +302,8 @@
 
 }
 @media screen and (max-width: 1311px) {
-@mixin strong {
-@mixin strong-1 {
+@mixin medium {
+@mixin medium-1 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-24);
@@ -311,7 +311,7 @@
   letter-spacing: var(--global-letter-spacing-0);
 }
 
-@mixin strong-2 {
+@mixin medium-2 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-24);
@@ -319,7 +319,7 @@
   letter-spacing: var(--global-letter-spacing-0);
 }
 
-@mixin strong-3 {
+@mixin medium-3 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-20);
@@ -327,7 +327,7 @@
   letter-spacing: var(--global-letter-spacing-pt5);
 }
 
-@mixin strong-4 {
+@mixin medium-4 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-16);
@@ -335,7 +335,7 @@
   letter-spacing: var(--global-letter-spacing-1pt25);
 }
 
-@mixin strong-5 {
+@mixin medium-5 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-14);
@@ -475,8 +475,8 @@
 
 }
 @media screen and (max-width: 834px) {
-@mixin strong {
-@mixin strong-1 {
+@mixin medium {
+@mixin medium-1 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-24);
@@ -484,7 +484,7 @@
   letter-spacing: var(--global-letter-spacing-0);
 }
 
-@mixin strong-2 {
+@mixin medium-2 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-20);
@@ -492,7 +492,7 @@
   letter-spacing: var(--global-letter-spacing-pt5);
 }
 
-@mixin strong-3 {
+@mixin medium-3 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-20);
@@ -500,7 +500,7 @@
   letter-spacing: var(--global-letter-spacing-pt5);
 }
 
-@mixin strong-4 {
+@mixin medium-4 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-16);
@@ -508,7 +508,7 @@
   letter-spacing: var(--global-letter-spacing-1pt25);
 }
 
-@mixin strong-5 {
+@mixin medium-5 {
   font-family: var(--global-font-family-primary);
   font-weight: var(--global-font-weight-500);
   font-size: var(--global-font-size-14);
@@ -528,6 +528,7 @@
   font-size: var(--global-font-size-16);
   line-height: var(--global-line-height-100);
   letter-spacing: var(--global-letter-spacing-12);
+  text-case: var(--global-textcase-uppercase);
 }
 
 @mixin devex {
@@ -536,6 +537,7 @@
   font-size: var(--global-font-size-14);
   line-height: var(--global-line-height-100);
   letter-spacing: var(--global-letter-spacing-10);
+  text-case: var(--global-textcase-uppercase);
 }
 
 }

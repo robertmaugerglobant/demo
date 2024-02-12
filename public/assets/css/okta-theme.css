@@ -8,6 +8,8 @@
 --okta-color-surface-brand-primary: var(--global-colors-blue-450);
 --okta-color-surface-brand-secondary: var(--global-colors-teal-450);
 --okta-color-surface-brand-tertiary: var(--global-colors-neutral-850);
+--okta-color-box-shadow-base: var(--global-colors-neutral-850);
+--okta-color-box-shadow-shade: var(--global-colors-neutral-850);
 --okta-color-content-primary: var(--global-colors-neutral-850);
 --okta-color-content-secondary: var(--global-colors-neutral-700);
 --okta-color-content-primary-inverse: var(--global-colors-neutral-50);
@@ -40,5 +42,10 @@
 --okta-color-action-quaternary-focus: var(--global-colors-blue-150);
 --okta-color-action-quaternary-disabled: var(--global-colors-neutral-50);
 --okta-color-action-quaternary-focus-ring: var(--global-colors-blue-150);
+--okta-color-gradient-blue: var(--global-linear-gradient(135deg, colors-neutral-200 0%, colors-blue-450 60%, colors-blue-600 90%));
+--okta-color-gradient-teal: var(--global-linear-gradient(135deg, colors-neutral-200 0%, colors-teal-450 60%, colors-teal-600 90%));
+--okta-color-gradient-carbon: var(--global-linear-gradient(135deg, colors-neutral-200 0%, colors-neutral-700 60%, colors-neutral-850 90%));
+--okta-color-gradient-cream: var(--global-linear-gradient(135deg, colors-neutral-50 0%, colors-neutral-200 60%, colors-neutral-300 90%));
+--okta-color-gradient-devx: var(--global-linear-gradient(135deg, colors-neutral-850 5%, colors-purple-700 30%, colors-blue-450 50%, colors-orange-250 70%, colors-neutral-200 95%));
 
 }

@@ -42,5 +42,7 @@
 --devx-color-action-quaternary-focus: var(--global-colors-blue-150);
 --devx-color-action-quaternary-disabled: var(--global-colors-gray-500);
 --devx-color-action-quaternary-focus-ring: var(--global-colors-blue-150);
+--devx-color-box-shadow-base: var(--global-colors-gray-1000);
+--devx-color-box-shadow-shade: var(--global-colors-gray-1000);
 
 }
