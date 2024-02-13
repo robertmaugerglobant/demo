@@ -1,0 +1,15 @@
+{
+  "tokenSetOrder": [
+    "System/global",
+    "System/typography",
+    "System/dimension",
+    "System/box-shadow",
+    "semantic/color",
+    "Components/button/demo",
+    "Color/Primary Base",
+    "Color/Brand Base",
+    "Color/Brand Mid",
+    "Color/Brand Dim",
+    "Color/Brand Dim Alt"
+  ]
+}

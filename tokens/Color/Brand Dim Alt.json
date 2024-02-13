@@ -1,0 +1,76 @@
+{
+  "color": {
+    "surface": {
+      "light": {
+        "value": "{colors.Gray.700}",
+        "type": "color"
+      },
+      "base": {
+        "value": "{colors.Neutral.850}",
+        "type": "color"
+      },
+      "mid": {
+        "value": "{colors.Gray.900}",
+        "type": "color"
+      },
+      "dim": {
+        "value": "{colors.Gray.950}",
+        "type": "color"
+      },
+      "gradient": {
+        "value": "{color.gradient.carbon}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "primary": {
+        "value": "{colors.Gray.550}",
+        "type": "color"
+      }
+    },
+    "content": {
+      "primary": {
+        "value": "{colors.Neutral.50}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.Gray.150}",
+        "type": "color"
+      }
+    },
+    "action": {
+      "base": {
+        "value": "{colors.Neutral.50}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{colors.Neutral.850}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{colors.Blue.150}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{colors.Neutral.50}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{colors.Blue.350}",
+        "type": "color"
+      },
+      "focus-ring": {
+        "value": "{colors.Blue.150}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{colors.Gray.500}",
+        "type": "color"
+      },
+      "link-disabled": {
+        "value": "{colors.Gray.350}",
+        "type": "color"
+      }
+    }
+  }
+}
