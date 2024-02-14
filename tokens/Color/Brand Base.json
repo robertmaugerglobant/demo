@@ -71,6 +71,72 @@
         "value": "{colors.Blue.100}",
         "type": "color"
       }
+    },
+    "form": {
+      "base": {
+        "value": "{colors.Neutral.50}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{colors.Blue.450}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{colors.Blue.150}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{colors.Blue.250}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{colors.Neutral.50}",
+        "type": "color"
+      },
+      "focus-ring": {
+        "value": "{colors.Blue.250}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{colors.Red.300}",
+        "type": "color"
+      },
+      "error-focus-ring": {
+        "value": "{colors.Red.200}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{colors.Blue.400}",
+        "type": "color"
+      }
+    },
+    "box-shadow": {
+      "base": {
+        "value": "{colors.Blue.800}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "{opacities.15}",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "shade": {
+        "value": "{colors.Blue.800}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "{opacities.10}",
+              "space": "hsl"
+            }
+          }
+        }
+      }
     }
   }
 }
