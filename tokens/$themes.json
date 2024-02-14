@@ -524,7 +524,10 @@
       "color.brand-secondary.orange.Clay": "S:2e3565e11b84683581c29f380c794489e1ea3bdd,",
       "color.brand-secondary.green.Pistachio": "S:ad7f8ea3a20faf2b024e84b3e0398b725cd3f3e1,",
       "color.brand-secondary.green.Emerald": "S:73a7b1a654f92ee7c00322af31642c1bb8f9d422,",
-      "color.brand-secondary.green.Forest": "S:281c994e1193b297e0fbd22f1430bf1bf86b7936,"
+      "color.brand-secondary.green.Forest": "S:281c994e1193b297e0fbd22f1430bf1bf86b7936,",
+      "Functional.Code.Large": "S:0c4c7f3114ec376f6dad585180731310f6518b76,",
+      "Functional.Code.Medium": "S:ac5ad9082e740a4c9ae9e596610eeac6604f6697,",
+      "Functional.Code.Small": "S:4c52f3ae2c699c64bce6ad10c79c87b057bfae1f,"
     },
     "$figmaVariableReferences": {
       "color.brand-primary.blue.Cloud": "b878f0dc991f3b889144af592a684faf544ae7c8",

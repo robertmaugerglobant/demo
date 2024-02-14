@@ -647,6 +647,38 @@
         },
         "type": "typography"
       }
+    },
+    "Code": {
+      "Large": {
+        "value": {
+          "fontFamily": "{font-family.mono}",
+          "fontWeight": "{font-weight.400}",
+          "fontSize": "{font-size.20}",
+          "lineHeight": "{line-height.120}",
+          "letterSpacing": "{letter-spacing.2}"
+        },
+        "type": "typography"
+      },
+      "Medium": {
+        "value": {
+          "fontFamily": "{font-family.mono}",
+          "fontWeight": "{font-weight.400}",
+          "fontSize": "{font-size.16}",
+          "lineHeight": "{line-height.120}",
+          "letterSpacing": "{letter-spacing.2}"
+        },
+        "type": "typography"
+      },
+      "Small": {
+        "value": {
+          "fontFamily": "{font-family.mono}",
+          "fontWeight": "{font-weight.400}",
+          "fontSize": "{font-size.14}",
+          "lineHeight": "{line-height.120}",
+          "letterSpacing": "{letter-spacing.2}"
+        },
+        "type": "typography"
+      }
     }
   }
 }
