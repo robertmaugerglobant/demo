@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Thu, 15 Feb 2024 04:48:11 GMT
+-->
+<resources>
+  <color name="color_surface_light">#FFFFFF</color>
+  <color name="color_surface_base">#FFFEFA</color>
+  <color name="color_surface_mid">#F6F1E7</color>
+  <color name="color_surface_dim">#E8DCC7</color>
+  <color name="color_surface_gradient">linear-gradient(135deg, #FFFEFA 0%, #F6F1E7 60%, #E8DCC7 90%)</color>
+  <color name="color_border_primary">#BFBAAC</color>
+  <color name="color_content_primary">#191919</color>
+  <color name="color_content_secondary">#4F4C4A</color>
+  <color name="color_action_base">#191919</color>
+  <color name="color_action_accent">#FFFEFA</color>
+  <color name="color_action_hover">#3F59E4</color>
+  <color name="color_action_focus">#3F59E4</color>
+  <color name="color_action_active">#1A31A9</color>
+  <color name="color_action_focus_ring">#8CA4F5</color>
+  <color name="color_action_disabled">#ABABAB</color>
+  <color name="color_action_link_disabled">#808080</color>
+  <color name="color_form_base">#191919</color>
+  <color name="color_form_background">#FFFEFA</color>
+  <color name="color_form_accent">#ABABAB</color>
+  <color name="color_form_hover">#E5E5E5</color>
+  <color name="color_form_focus">#3F59E4</color>
+  <color name="color_form_focus_ring">#A0B6FA</color>
+  <color name="color_form_error">#B2551E</color>
+  <color name="color_form_error_focus_ring">#F8C1A3</color>
+  <color name="color_form_disabled">#E5E5E5</color>
+  <color name="color_box_shadow_base">#191919</color>
+  <color name="color_box_shadow_shade">#191919</color>
+  <color name="color_base_gray_light">#ffcccccc</color>
+  <color name="color_base_gray_medium">#ff999999</color>
+  <color name="color_base_gray_dark">#ff111111</color>
+  <color name="color_base_red">#ffff0000</color>
+  <color name="color_base_green">#ff00ff00</color>
+  <color name="color_font_base">#ffff0000</color>
+  <color name="color_font_secondary">#ff00ff00</color>
+  <color name="color_font_tertiary">#ffcccccc</color>
+  <color name="color_gradient_blue">linear-gradient(135deg, #F6F1E7 0%, #3F59E4 60%, #1A31A9 90%)</color>
+  <color name="color_gradient_teal">linear-gradient(135deg, #F6F1E7 0%, #4CB7A3 60%, #096256 90%)</color>
+  <color name="color_gradient_carbon">linear-gradient(135deg, #F6F1E7 0%, #6B665F 60%, #191919 90%)</color>
+  <color name="color_gradient_cream">linear-gradient(135deg, #FFFEFA 0%, #F6F1E7 60%, #E8DCC7 90%)</color>
+  <color name="color_gradient_devx">linear-gradient(135deg, #191919 5%, #4016A1 30%, #3F59E4 50%, #F2AC84 70%, #F6F1E7 95%)</color>
+  <color name="color_brand_primary_blue_cloud">#B6C9FF</color>
+  <color name="color_brand_primary_blue_sky">#3F59E4</color>
+  <color name="color_brand_primary_blue_cobalt">#1A31A9</color>
+  <color name="color_brand_primary_teal_turquoise">#B1E4DE</color>
+  <color name="color_brand_primary_teal_seafoam">#4CB7A3</color>
+  <color name="color_brand_primary_teal_ocean">#096256</color>
+  <color name="color_brand_primary_neutral_snow">#FFFEFA</color>
+  <color name="color_brand_primary_neutral_cream">#F6F1E7</color>
+  <color name="color_brand_primary_neutral_sand">#E8DCC7</color>
+  <color name="color_brand_primary_neutral_gravel">#AFABA1</color>
+  <color name="color_brand_primary_neutral_slate">#6B665F</color>
+  <color name="color_brand_primary_neutral_carbon">#191919</color>
+  <color name="color_brand_secondary_purple_lilac">#B59DFC</color>
+  <color name="color_brand_secondary_purple_violet">#7649F2</color>
+  <color name="color_brand_secondary_purple_eggplant">#4016A1</color>
+  <color name="color_brand_secondary_amber_wheat">#F4D594</color>
+  <color name="color_brand_secondary_amber_goldenrod">#EF9B05</color>
+  <color name="color_brand_secondary_amber_walnut">#744E00</color>
+  <color name="color_brand_secondary_orange_melon">#F2AC84</color>
+  <color name="color_brand_secondary_orange_tangerine">#E27133</color>
+  <color name="color_brand_secondary_orange_clay">#763101</color>
+  <color name="color_brand_secondary_green_pistachio">#8FC88A</color>
+  <color name="color_brand_secondary_green_emerald">#149750</color>
+  <color name="color_brand_secondary_green_forest">#0F5C34</color>
+  
+</resources>

@@ -1,0 +1,36 @@
+# Workflow name
+name: 'Chromatic Deployment'
+
+# Event for the workflow
+on:
+  push:
+    branches:
+      - figmaTempMain
+
+env:
+  GITHUB_TOKEN: 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
+  CHROMATIC_PROJECT_TOKEN: chpt_b8e7b61040318f5
+
+# List of jobs
+jobs:
+  test:
+    # Operating System
+    runs-on: ubuntu-latest
+    # Job steps
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - run: yarn config set ignore-engines true    
+      - run: yarn
+      - run: yarn add -D sass
+      - run: npm i @storybook/builder-vite --builder=vite
+        #👇 Adds Chromatic as a step in the workflow
+      - uses: chromaui/action@latest
+        # Options required for Chromatic's GitHub Action
+        with:
+          #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+        
+      

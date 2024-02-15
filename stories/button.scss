@@ -1,6 +1,4 @@
-@import '../public/assets/css/global-styles.css';
-@import '../public/assets/css/button-theme.css';
-
+@import '../build/scss/_variables.scss';
 .storybook-button {
    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -9,7 +7,7 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  background-color:#d9d9d9;
+  background-color:red;
 }
 .storybook-button--primary {
   color: white;

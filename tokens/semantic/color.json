@@ -1,0 +1,140 @@
+{
+  "color": {
+    "gradient": {
+      "blue": {
+        "value": "linear-gradient(135deg, {colors.Neutral.200} 0%, {colors.Blue.450} 60%, {colors.Blue.600} 90%)",
+        "type": "color"
+      },
+      "teal": {
+        "value": "linear-gradient(135deg, {colors.Neutral.200} 0%, {colors.Teal.450} 60%, {colors.Teal.600} 90%)",
+        "type": "color"
+      },
+      "carbon": {
+        "value": "linear-gradient(135deg, {colors.Neutral.200} 0%, {colors.Neutral.700} 60%, {colors.Neutral.850} 90%)",
+        "type": "color"
+      },
+      "cream": {
+        "value": "linear-gradient(135deg, {colors.Neutral.50} 0%, {colors.Neutral.200} 60%, {colors.Neutral.300} 90%)",
+        "type": "color"
+      },
+      "devx": {
+        "value": "linear-gradient(135deg, {colors.Neutral.850} 5%, {colors.Purple.700} 30%, {colors.Blue.450} 50%, {colors.Orange.250} 70%, {colors.Neutral.200} 95%)",
+        "type": "color"
+      }
+    },
+    "brand-primary": {
+      "blue": {
+        "Cloud": {
+          "value": "{colors.Blue.150}",
+          "type": "color"
+        },
+        "Sky": {
+          "value": "{colors.Blue.450}",
+          "type": "color"
+        },
+        "Cobalt": {
+          "value": "{colors.Blue.600}",
+          "type": "color"
+        }
+      },
+      "teal": {
+        "Turquoise": {
+          "value": "{colors.Teal.150}",
+          "type": "color"
+        },
+        "Seafoam": {
+          "value": "{colors.Teal.450}",
+          "type": "color"
+        },
+        "Ocean": {
+          "value": "{colors.Teal.600}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "Snow": {
+          "value": "{colors.Neutral.50}",
+          "type": "color"
+        },
+        "Cream": {
+          "value": "{colors.Neutral.200}",
+          "type": "color"
+        },
+        "Sand": {
+          "value": "{colors.Neutral.300}",
+          "type": "color"
+        },
+        "Gravel": {
+          "value": "{colors.Neutral.500}",
+          "type": "color"
+        },
+        "Slate": {
+          "value": "{colors.Neutral.700}",
+          "type": "color"
+        },
+        "Carbon": {
+          "value": "{colors.Neutral.850}",
+          "type": "color"
+        }
+      }
+    },
+    "brand-secondary": {
+      "purple": {
+        "Lilac": {
+          "value": "{colors.Purple.250}",
+          "type": "color"
+        },
+        "Violet": {
+          "value": "{colors.Purple.450}",
+          "type": "color"
+        },
+        "Eggplant": {
+          "value": "{colors.Purple.700}",
+          "type": "color"
+        }
+      },
+      "amber": {
+        "Wheat": {
+          "value": "{colors.Amber.150}",
+          "type": "color"
+        },
+        "Goldenrod": {
+          "value": "{colors.Amber.400}",
+          "type": "color"
+        },
+        "Walnut": {
+          "value": "{colors.Amber.650}",
+          "type": "color"
+        }
+      },
+      "orange": {
+        "Melon": {
+          "value": "{colors.Orange.250}",
+          "type": "color"
+        },
+        "Tangerine": {
+          "value": "{colors.Orange.400}",
+          "type": "color"
+        },
+        "Clay": {
+          "value": "{colors.Orange.700}",
+          "type": "color"
+        }
+      },
+      "green": {
+        "Pistachio": {
+          "value": "{colors.Green.300}",
+          "type": "color"
+        },
+        "Emerald": {
+          "value": "{colors.Green.500}",
+          "type": "color"
+        },
+        "Forest": {
+          "value": "{colors.Green.700}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
