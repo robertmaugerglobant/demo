@@ -11,9 +11,8 @@ jobs:
       - run: npm --version
       - uses: actions/checkout@v3
       - run: npm install
-      - run: git config --global --add safe.directory /__w/demo/demo
       - run: rm -v tokens/Components/button/demo.json
-      - run: git filter-branch --tree-filter 'rm -rf Brand\ Mid.json' HEAD
+      - run: 'rm -rf  tokens/color/Brand\ Mid.json'
       - run: rm -v tokens/color/Brand\ Mid.json
       - run: rm -v tokens/color/"Brand Dim Alt.json"
       - run: rm -v tokens/color/"Brand Dim.json"
