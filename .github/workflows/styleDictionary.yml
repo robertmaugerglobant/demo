@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v3
       - run: npm install
       - run: rm -v tokens/Components/button/demo.json
-      - run: rm -v tokens/color/'Brand Mid.json'
-      - run: rm -v tokens/color/'Brand Dim Alt.json'
-      - run: rm -v tokens/color/'Brand Dim.json'
-      - run: rm -v tokens/color/'Primary Base.json'
+      - run: rm -v tokens/color/"Brand Mid.json"
+      - run: rm -v tokens/color/"Brand Dim Alt.json"
+      - run: rm -v tokens/color/"Brand Dim.json"
+      - run: rm -v tokens/color/"Primary Base.json"
       - run: npm install -D style-dictionary
       - run: style-dictionary init basic
       - run: style-dictionary build
