@@ -23,6 +23,7 @@ jobs:
           fetch-depth: 0
       - run: yarn config set ignore-engines true    
       - run: yarn
+      - run: yarn add -D sass
       - run: npm i @storybook/builder-vite --builder=vite
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@latest
