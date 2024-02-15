@@ -10,6 +10,7 @@ jobs:
       - run: node --version
       - run: npm --version
       - uses: actions/checkout@v3
+      - run: yarn add -D sass
       - run: npm install
       - run: rm -rf tokens/Components/button/demo.json
       - run: 'rm -rf  tokens/color/Brand\ Mid.json'
