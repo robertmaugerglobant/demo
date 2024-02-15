@@ -16,7 +16,7 @@ jobs:
       - run: rm -rf tokens/color/"Brand Dim Alt.json"
       - run: rm -rf tokens/color/"Brand Dim.json"
       - run: rm -rf tokens/color/"Primary Base.json"
-      - run: npm install -D style-dictionary
+      - run: npm install -g style-dictionary
       - run: style-dictionary init basic
       - run: style-dictionary build
       - run: git config --global --add safe.directory /__w/demo/demo
