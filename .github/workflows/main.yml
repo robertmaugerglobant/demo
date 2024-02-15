@@ -11,6 +11,5 @@ jobs:
       - run: npm --version
       - uses: actions/checkout@v3
       - run: npm install
-      - run: node app.js
       - run: git config --global --add safe.directory /__w/demo/demo
       - uses: stefanzweifel/git-auto-commit-action@v5
