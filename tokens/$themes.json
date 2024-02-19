@@ -528,7 +528,8 @@
       "Functional.Code.Large": "S:0c4c7f3114ec376f6dad585180731310f6518b76,",
       "Functional.Code.Medium": "S:ac5ad9082e740a4c9ae9e596610eeac6604f6697,",
       "Functional.Code.Small": "S:4c52f3ae2c699c64bce6ad10c79c87b057bfae1f,",
-      "Functional.Chips.Small": "S:efdd92fb8bb115eac635725e2e6ee468e3273dce,"
+      "Functional.Chips.Small": "S:efdd92fb8bb115eac635725e2e6ee468e3273dce,",
+      "Functional.Label.Small": "S:d0e80b81d738bed52507eb453ca82f88f8adcf18,"
     },
     "$figmaVariableReferences": {
       "color.brand-primary.blue.Cloud": "b878f0dc991f3b889144af592a684faf544ae7c8",
