@@ -1,0 +1,20 @@
+{
+  "copy": {
+    "copyRight": {
+      "value": "Copyright © 2024 Okta. All rights reserved.",
+      "type": "text"
+    },
+    "contactUsBtn": {
+      "value": "Contact us",
+      "type": "text"
+    },
+    "signUp": {
+      "value": "Sign up",
+      "type": "text"
+    },
+    "headerMessage": {
+      "value": "Registration for Oktane is open!",
+      "type": "text"
+    }
+  }
+}

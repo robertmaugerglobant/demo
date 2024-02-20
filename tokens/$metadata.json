@@ -4,6 +4,7 @@
     "System/typography",
     "System/dimension",
     "System/box-shadow",
+    "System/copy",
     "semantic/color",
     "Components/button/demo",
     "Color/Primary Base",

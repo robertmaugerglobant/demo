@@ -233,13 +233,14 @@
   },
   {
     "id": "0a74a5f0aa4f2dc11ac7fce2a533f62ea951f9bd",
-    "name": "color",
+    "name": "okta",
     "selectedTokenSets": {
       "System/global": "source",
       "System/typography": "enabled",
       "System/dimension": "enabled",
       "System/box-shadow": "enabled",
-      "semantic/color": "enabled"
+      "semantic/color": "enabled",
+      "System/copy": "enabled"
     },
     "$figmaStyleReferences": {
       "color.interaction.on-default.primary.default.surface": "S:f283613bd0e13c47c57224b6c74a9f8468410baf,",
@@ -556,6 +557,10 @@
       "color.brand-secondary.green.Pistachio": "80ec93e6d42163d5ec2fc029eb8fa78272421870",
       "color.brand-secondary.green.Emerald": "c2c1b53a4879c78679b9241ea72cc3146d25c7f5",
       "color.brand-secondary.green.Forest": "d71ab7015e1c82387877fd86d2b017e50f4cd092",
+      "copy.copyRight": "05147e9b336da5f3a2c7a9c7ec9e1a0ffb690317",
+      "copy.contactUsBtn": "0c88bf83b8589f350ec812eefc05c52002207bf4",
+      "copy.signUp": "57ca2d0100d61e453e879eec77e67522b455d27b",
+      "copy.headerMessage": "417426aa69e4275326748453fb35f86da170d7ae",
       "icon.size.16": "279566fc12c878c7bc471467df5402bae184640a",
       "icon.size.24": "644a1cc0fd576bbddf3349e318222b4208737fc2",
       "icon.size.32": "4c1e47b60d529c5d222ece3c6df76ffe3dc979a7",
@@ -647,7 +652,7 @@
       "border-width.3": "5f002f475af7f8e2adef16693d491504a429123a"
     },
     "$figmaCollectionId": "VariableCollectionId:1844:7795",
-    "$figmaModeId": "1844:0",
+    "$figmaModeId": "2301:0",
     "group": "semantic"
   },
   {
