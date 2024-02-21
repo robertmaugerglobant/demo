@@ -226,7 +226,11 @@
       "dimension.80000": "dd10a50167ae4bb62f4800fc6d2c11d89795690b",
       "dimension.96000": "d643917d7f85f7eb4bf1de0b0036ebdc5915d376",
       "dimension.112000": "1d28011fe8d62084ae4ac1c74cea3035ca9840fe",
-      "dimension.128000": "49fa35ea43d2f591b2f38de06edc2d6580ca4323"
+      "dimension.128000": "49fa35ea43d2f591b2f38de06edc2d6580ca4323",
+      "dimension.31": "43c6ab3159b7d1a5d9bba7132dab37463dca5d69",
+      "dimension.94": "011c72236f26b44893c1da1c91eed26f3f7f9404",
+      "dimension.188": "44607aa5439d18a179e73baf85eae12248cf0378",
+      "dimension.313": "eb1eee61b1a6f8063568bff3376925eaafb18225"
     },
     "$figmaCollectionId": "VariableCollectionId:1300:1136",
     "$figmaModeId": "1300:0"

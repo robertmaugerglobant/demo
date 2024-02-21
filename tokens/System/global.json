@@ -1023,16 +1023,32 @@
       "value": "0px",
       "type": "dimension"
     },
+    "31": {
+      "value": "0.5px",
+      "type": "dimension"
+    },
     "63": {
       "value": "1px",
+      "type": "dimension"
+    },
+    "94": {
+      "value": "1.5px",
       "type": "dimension"
     },
     "125": {
       "value": "2px",
       "type": "dimension"
     },
+    "188": {
+      "value": "3px",
+      "type": "dimension"
+    },
     "250": {
       "value": "4px",
+      "type": "dimension"
+    },
+    "313": {
+      "value": "5px",
       "type": "dimension"
     },
     "375": {
