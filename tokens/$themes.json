@@ -693,7 +693,10 @@
       "color.form.error-focus-ring": "ab1bc88d6a3efa56058b7c1d1fcf61f4e11b36b3",
       "color.form.disabled": "7bdd0562abb144eff34924f28fe3b3bfeb647eba",
       "color.box-shadow.base": "45c5cdd5d0e46e4c80bbfc5dbf5edd8d541a0770",
-      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560"
+      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560",
+      "color.accent.primary": "cfe4b759836f09a927bc848f9c5a3c35edaefc6d",
+      "color.accent.secondary": "f7f0b04ca528eb9aea1cd08823b868f773a3270c",
+      "color.accent.tertiary": "6caecb6bdfc1ace3390c8ec70fe4eafd35096ed6"
     }
   },
   {
@@ -734,7 +737,10 @@
       "color.form.error-focus-ring": "ab1bc88d6a3efa56058b7c1d1fcf61f4e11b36b3",
       "color.form.disabled": "7bdd0562abb144eff34924f28fe3b3bfeb647eba",
       "color.box-shadow.base": "45c5cdd5d0e46e4c80bbfc5dbf5edd8d541a0770",
-      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560"
+      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560",
+      "color.accent.primary": "cfe4b759836f09a927bc848f9c5a3c35edaefc6d",
+      "color.accent.secondary": "f7f0b04ca528eb9aea1cd08823b868f773a3270c",
+      "color.accent.tertiary": "6caecb6bdfc1ace3390c8ec70fe4eafd35096ed6"
     }
   },
   {
@@ -774,7 +780,10 @@
       "color.form.error-focus-ring": "ab1bc88d6a3efa56058b7c1d1fcf61f4e11b36b3",
       "color.form.disabled": "7bdd0562abb144eff34924f28fe3b3bfeb647eba",
       "color.box-shadow.base": "45c5cdd5d0e46e4c80bbfc5dbf5edd8d541a0770",
-      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560"
+      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560",
+      "color.accent.primary": "cfe4b759836f09a927bc848f9c5a3c35edaefc6d",
+      "color.accent.secondary": "f7f0b04ca528eb9aea1cd08823b868f773a3270c",
+      "color.accent.tertiary": "6caecb6bdfc1ace3390c8ec70fe4eafd35096ed6"
     },
     "group": "Color Sets"
   },
@@ -816,7 +825,10 @@
       "color.form.error-focus-ring": "ab1bc88d6a3efa56058b7c1d1fcf61f4e11b36b3",
       "color.form.disabled": "7bdd0562abb144eff34924f28fe3b3bfeb647eba",
       "color.box-shadow.base": "45c5cdd5d0e46e4c80bbfc5dbf5edd8d541a0770",
-      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560"
+      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560",
+      "color.accent.primary": "cfe4b759836f09a927bc848f9c5a3c35edaefc6d",
+      "color.accent.secondary": "f7f0b04ca528eb9aea1cd08823b868f773a3270c",
+      "color.accent.tertiary": "6caecb6bdfc1ace3390c8ec70fe4eafd35096ed6"
     }
   },
   {
@@ -857,7 +869,10 @@
       "color.form.error-focus-ring": "ab1bc88d6a3efa56058b7c1d1fcf61f4e11b36b3",
       "color.form.disabled": "7bdd0562abb144eff34924f28fe3b3bfeb647eba",
       "color.box-shadow.base": "45c5cdd5d0e46e4c80bbfc5dbf5edd8d541a0770",
-      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560"
+      "color.box-shadow.shade": "b809f24e2373aee569bbd0a3dc84451f4e0ad560",
+      "color.accent.primary": "cfe4b759836f09a927bc848f9c5a3c35edaefc6d",
+      "color.accent.secondary": "f7f0b04ca528eb9aea1cd08823b868f773a3270c",
+      "color.accent.tertiary": "6caecb6bdfc1ace3390c8ec70fe4eafd35096ed6"
     }
   }
 ]
