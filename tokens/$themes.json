@@ -653,7 +653,10 @@
       "border-width.0": "4e069f7a502a00a3a6b5ccfffe44d3df0508e5c6",
       "border-width.1": "66dd7a4237923539ea0781d3394770f5a7582674",
       "border-width.2": "3a0df8037fc5db67e4d917c5102cf53dba35709c",
-      "border-width.3": "5f002f475af7f8e2adef16693d491504a429123a"
+      "border-width.3": "5f002f475af7f8e2adef16693d491504a429123a",
+      "border-width.pt5": "36c41e3078114f0980beb55b695b8e2a45457c88",
+      "border-width.1pt5": "42953154b55546f46239e3361779d790a8cd236d",
+      "border-width.4": "86fe361b250e91b4431756e600b24421cc6d5aeb"
     },
     "$figmaCollectionId": "VariableCollectionId:1844:7795",
     "$figmaModeId": "2301:0",

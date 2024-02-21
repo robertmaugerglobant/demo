@@ -371,7 +371,19 @@
       "type": "borderWidth"
     },
     "3": {
+      "value": "{dimension.188}",
+      "type": "borderWidth"
+    },
+    "4": {
       "value": "{dimension.250}",
+      "type": "borderWidth"
+    },
+    "pt5": {
+      "value": "{dimension.31}",
+      "type": "borderWidth"
+    },
+    "1pt5": {
+      "value": "{dimension.94}",
       "type": "borderWidth"
     }
   }
