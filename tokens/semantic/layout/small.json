@@ -1,0 +1,50 @@
+{
+  "Breakpoint-max": {
+    "value": "768",
+    "type": "sizing"
+  },
+  "Breakpoint-min": {
+    "value": "577",
+    "type": "sizing"
+  },
+  "Outer-width-max": {
+    "value": "718",
+    "type": "sizing"
+  },
+  "Outer-width-min": {
+    "value": "543",
+    "type": "sizing"
+  },
+  "Inner-content-max": {
+    "value": "654",
+    "type": "sizing"
+  },
+  "Inner-content-min": {
+    "value": "495",
+    "type": "sizing"
+  },
+  "Extended-content-max": {
+    "value": "766",
+    "type": "sizing"
+  },
+  "Extended-content-min": {
+    "value": "575",
+    "type": "sizing"
+  },
+  "Content-Margin": {
+    "value": "32",
+    "type": "sizing"
+  },
+  "Frame-Margin": {
+    "value": "24",
+    "type": "sizing"
+  },
+  "Gutter": {
+    "value": "24",
+    "type": "sizing"
+  },
+  "Columns": {
+    "value": "6",
+    "type": "sizing"
+  }
+}
