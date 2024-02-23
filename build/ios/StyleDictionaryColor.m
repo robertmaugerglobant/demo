@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 23 Feb 2024 04:14:02 GMT
+// Generated on Fri, 23 Feb 2024 04:22:24 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -21,33 +21,6 @@
 
   dispatch_once(&onceToken, ^{
     colorArray = @[
-#FFFFFF,
-#FFFEFA,
-#F6F1E7,
-#E8DCC7,
-linear-gradient(135deg, #FFFEFA 0%, #F6F1E7 60%, #E8DCC7 90%),
-#BFBAAC,
-#191919,
-#4F4C4A,
-#191919,
-#FFFEFA,
-#3F59E4,
-#3F59E4,
-#1A31A9,
-#8CA4F5,
-#ABABAB,
-#808080,
-#191919,
-#FFFEFA,
-#ABABAB,
-#E5E5E5,
-#3F59E4,
-#A0B6FA,
-#B2551E,
-#F8C1A3,
-#E5E5E5,
-#191919,
-#191919,
 [UIColor colorWithRed:0.800f green:0.800f blue:0.800f alpha:1.000f],
 [UIColor colorWithRed:0.600f green:0.600f blue:0.600f alpha:1.000f],
 [UIColor colorWithRed:0.067f green:0.067f blue:0.067f alpha:1.000f],

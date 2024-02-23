@@ -2,36 +2,9 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 23 Feb 2024 04:14:02 GMT
+  Generated on Fri, 23 Feb 2024 04:22:24 GMT
 -->
 <resources>
-  <color name="color_surface_light">#FFFFFF</color>
-  <color name="color_surface_base">#FFFEFA</color>
-  <color name="color_surface_mid">#F6F1E7</color>
-  <color name="color_surface_dim">#E8DCC7</color>
-  <color name="color_surface_gradient">linear-gradient(135deg, #FFFEFA 0%, #F6F1E7 60%, #E8DCC7 90%)</color>
-  <color name="color_border_primary">#BFBAAC</color>
-  <color name="color_content_primary">#191919</color>
-  <color name="color_content_secondary">#4F4C4A</color>
-  <color name="color_action_base">#191919</color>
-  <color name="color_action_accent">#FFFEFA</color>
-  <color name="color_action_hover">#3F59E4</color>
-  <color name="color_action_focus">#3F59E4</color>
-  <color name="color_action_active">#1A31A9</color>
-  <color name="color_action_focus_ring">#8CA4F5</color>
-  <color name="color_action_disabled">#ABABAB</color>
-  <color name="color_action_link_disabled">#808080</color>
-  <color name="color_form_base">#191919</color>
-  <color name="color_form_background">#FFFEFA</color>
-  <color name="color_form_accent">#ABABAB</color>
-  <color name="color_form_hover">#E5E5E5</color>
-  <color name="color_form_focus">#3F59E4</color>
-  <color name="color_form_focus_ring">#A0B6FA</color>
-  <color name="color_form_error">#B2551E</color>
-  <color name="color_form_error_focus_ring">#F8C1A3</color>
-  <color name="color_form_disabled">#E5E5E5</color>
-  <color name="color_box_shadow_base">#191919</color>
-  <color name="color_box_shadow_shade">#191919</color>
   <color name="color_base_gray_light">#ffcccccc</color>
   <color name="color_base_gray_medium">#ff999999</color>
   <color name="color_base_gray_dark">#ff111111</color>

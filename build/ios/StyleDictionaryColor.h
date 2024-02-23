@@ -4,39 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 23 Feb 2024 04:14:02 GMT
+// Generated on Fri, 23 Feb 2024 04:22:24 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-ColorSurfaceLight,
-ColorSurfaceBase,
-ColorSurfaceMid,
-ColorSurfaceDim,
-ColorSurfaceGradient,
-ColorBorderPrimary,
-ColorContentPrimary,
-ColorContentSecondary,
-ColorActionBase,
-ColorActionAccent,
-ColorActionHover,
-ColorActionFocus,
-ColorActionActive,
-ColorActionFocusRing,
-ColorActionDisabled,
-ColorActionLinkDisabled,
-ColorFormBase,
-ColorFormBackground,
-ColorFormAccent,
-ColorFormHover,
-ColorFormFocus,
-ColorFormFocusRing,
-ColorFormError,
-ColorFormErrorFocusRing,
-ColorFormDisabled,
-ColorBoxShadowBase,
-ColorBoxShadowShade,
 ColorBaseGrayLight,
 ColorBaseGrayMedium,
 ColorBaseGrayDark,
