@@ -2,17 +2,9 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 23 Feb 2024 04:22:24 GMT
+  Generated on Tue, 27 Feb 2024 19:00:23 GMT
 -->
 <resources>
-  <color name="color_base_gray_light">#ffcccccc</color>
-  <color name="color_base_gray_medium">#ff999999</color>
-  <color name="color_base_gray_dark">#ff111111</color>
-  <color name="color_base_red">#ffff0000</color>
-  <color name="color_base_green">#ff00ff00</color>
-  <color name="color_font_base">#ffff0000</color>
-  <color name="color_font_secondary">#ff00ff00</color>
-  <color name="color_font_tertiary">#ffcccccc</color>
   <color name="color_gradient_blue">linear-gradient(135deg, #F6F1E7 0%, #3F59E4 60%, #1A31A9 90%)</color>
   <color name="color_gradient_teal">linear-gradient(135deg, #F6F1E7 0%, #4CB7A3 60%, #096256 90%)</color>
   <color name="color_gradient_carbon">linear-gradient(135deg, #F6F1E7 0%, #6B665F 60%, #191919 90%)</color>
@@ -42,5 +34,8 @@
   <color name="color_brand_secondary_green_pistachio">#8FC88A</color>
   <color name="color_brand_secondary_green_emerald">#149750</color>
   <color name="color_brand_secondary_green_forest">#0F5C34</color>
+  <color name="color_content_primary_inverse">#B59DFC</color>
+  <color name="color_box_shadow_shade">#B59DFC</color>
+  <color name="color_box_shadow_base">#B59DFC</color>
   
 </resources>

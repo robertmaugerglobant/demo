@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Fri, 23 Feb 2024 04:22:24 GMT
+// Generated on Tue, 27 Feb 2024 19:00:24 GMT
 
 
 
@@ -11,11 +11,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object StyleDictionaryColor {
-  val colorBaseGrayDark = Color(0xff111111)
-  val colorBaseGrayLight = Color(0xffcccccc)
-  val colorBaseGrayMedium = Color(0xff999999)
-  val colorBaseGreen = Color(0xff00ff00)
-  val colorBaseRed = Color(0xffff0000)
+  val colorBoxShadowBase = #B59DFC
+  val colorBoxShadowShade = #B59DFC
   val colorBrandPrimaryBlueCloud = #B6C9FF
   val colorBrandPrimaryBlueCobalt = #1A31A9
   val colorBrandPrimaryBlueSky = #3F59E4
@@ -40,9 +37,7 @@ object StyleDictionaryColor {
   val colorBrandSecondaryPurpleEggplant = #4016A1
   val colorBrandSecondaryPurpleLilac = #B59DFC
   val colorBrandSecondaryPurpleViolet = #7649F2
-  val colorFontBase = Color(0xffff0000)
-  val colorFontSecondary = Color(0xff00ff00)
-  val colorFontTertiary = Color(0xffcccccc)
+  val colorContentPrimaryInverse = #B59DFC
   val colorGradientBlue = linear-gradient(135deg, #F6F1E7 0%, #3F59E4 60%, #1A31A9 90%)
   val colorGradientCarbon = linear-gradient(135deg, #F6F1E7 0%, #6B665F 60%, #191919 90%)
   val colorGradientCream = linear-gradient(135deg, #FFFEFA 0%, #F6F1E7 60%, #E8DCC7 90%)

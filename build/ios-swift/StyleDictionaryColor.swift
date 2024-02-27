@@ -4,17 +4,14 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 23 Feb 2024 04:22:24 GMT
+// Generated on Tue, 27 Feb 2024 19:00:24 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
-    public static let baseGrayDark = UIColor(red: 0.067, green: 0.067, blue: 0.067, alpha: 1)
-    public static let baseGrayLight = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
-    public static let baseGrayMedium = UIColor(red: 0.600, green: 0.600, blue: 0.600, alpha: 1)
-    public static let baseGreen = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
-    public static let baseRed = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
+    public static let boxShadowBase = #B59DFC
+    public static let boxShadowShade = #B59DFC
     public static let brandPrimaryBlueCloud = #B6C9FF
     public static let brandPrimaryBlueCobalt = #1A31A9
     public static let brandPrimaryBlueSky = #3F59E4
@@ -39,9 +36,7 @@ public enum StyleDictionaryColor {
     public static let brandSecondaryPurpleEggplant = #4016A1
     public static let brandSecondaryPurpleLilac = #B59DFC
     public static let brandSecondaryPurpleViolet = #7649F2
-    public static let fontBase = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let fontSecondary = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
-    public static let fontTertiary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
+    public static let contentPrimaryInverse = #B59DFC
     public static let gradientBlue = linear-gradient(135deg, #F6F1E7 0%, #3F59E4 60%, #1A31A9 90%)
     public static let gradientCarbon = linear-gradient(135deg, #F6F1E7 0%, #6B665F 60%, #191919 90%)
     public static let gradientCream = linear-gradient(135deg, #FFFEFA 0%, #F6F1E7 60%, #E8DCC7 90%)

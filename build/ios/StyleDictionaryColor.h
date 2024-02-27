@@ -4,20 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 23 Feb 2024 04:22:24 GMT
+// Generated on Tue, 27 Feb 2024 19:00:24 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-ColorBaseGrayLight,
-ColorBaseGrayMedium,
-ColorBaseGrayDark,
-ColorBaseRed,
-ColorBaseGreen,
-ColorFontBase,
-ColorFontSecondary,
-ColorFontTertiary,
 ColorGradientBlue,
 ColorGradientTeal,
 ColorGradientCarbon,
@@ -46,7 +38,10 @@ ColorBrandSecondaryOrangeTangerine,
 ColorBrandSecondaryOrangeClay,
 ColorBrandSecondaryGreenPistachio,
 ColorBrandSecondaryGreenEmerald,
-ColorBrandSecondaryGreenForest
+ColorBrandSecondaryGreenForest,
+ColorContentPrimaryInverse,
+ColorBoxShadowShade,
+ColorBoxShadowBase
 };
 
 @interface StyleDictionaryColor : NSObject
