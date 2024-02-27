@@ -5,7 +5,7 @@ name: 'Chromatic Deployment'
 on:
   push:
     branches:
-      - figmaTempMain
+      - Main
 
 env:
   GITHUB_TOKEN: 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
