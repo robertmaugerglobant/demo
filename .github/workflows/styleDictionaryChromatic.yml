@@ -8,7 +8,7 @@ on:
       - figmaTempMain
 
 env:
-  GITHUB_TOKEN: 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
+  GITHUB_TOKEN: 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
   CHROMATIC_PROJECT_TOKEN: chpt_b8e7b61040318f5
 
 # List of jobs
