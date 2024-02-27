@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 27 Feb 2024 19:00:24 GMT
+// Generated on Tue, 27 Feb 2024 23:03:46 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -51,8 +51,8 @@ linear-gradient(135deg, #191919 5%, #4016A1 30%, #3F59E4 50%, #F2AC84 70%, #F6F1
 #149750,
 #0F5C34,
 #B59DFC,
-#B59DFC,
-#B59DFC
+#141A38,
+#141A38
     ];
   });
 

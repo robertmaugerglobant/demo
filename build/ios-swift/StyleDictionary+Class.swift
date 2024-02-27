@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 27 Feb 2024 19:00:24 GMT
+// Generated on Tue, 27 Feb 2024 23:03:46 GMT
 
 
 import UIKit
@@ -160,8 +160,8 @@ public class StyleDictionaryClass {
     public static let buttonSpaceMediumPaddingLeftAndRight = 32px
     public static let buttonSpaceMediumPaddingTopAndBottom = 12px
     public static let buttonTypographyMedium = [object Object]
-    public static let colorBoxShadowBase = #B59DFC
-    public static let colorBoxShadowShade = #B59DFC
+    public static let colorBoxShadowBase = #141A38
+    public static let colorBoxShadowShade = #141A38
     public static let colorBrandPrimaryBlueCloud = #B6C9FF
     public static let colorBrandPrimaryBlueCobalt = #1A31A9
     public static let colorBrandPrimaryBlueSky = #3F59E4

@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Tue, 27 Feb 2024 19:00:24 GMT
+// Generated on Tue, 27 Feb 2024 23:03:46 GMT
 
 
 
@@ -11,8 +11,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object StyleDictionaryColor {
-  val colorBoxShadowBase = #B59DFC
-  val colorBoxShadowShade = #B59DFC
+  val colorBoxShadowBase = #141A38
+  val colorBoxShadowShade = #141A38
   val colorBrandPrimaryBlueCloud = #B6C9FF
   val colorBrandPrimaryBlueCobalt = #1A31A9
   val colorBrandPrimaryBlueSky = #3F59E4

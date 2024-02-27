@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 27 Feb 2024 19:00:23 GMT
+  Generated on Tue, 27 Feb 2024 23:03:46 GMT
 -->
 <resources>
   <color name="color_gradient_blue">linear-gradient(135deg, #F6F1E7 0%, #3F59E4 60%, #1A31A9 90%)</color>
@@ -35,7 +35,7 @@
   <color name="color_brand_secondary_green_emerald">#149750</color>
   <color name="color_brand_secondary_green_forest">#0F5C34</color>
   <color name="color_content_primary_inverse">#B59DFC</color>
-  <color name="color_box_shadow_shade">#B59DFC</color>
-  <color name="color_box_shadow_base">#B59DFC</color>
+  <color name="color_box_shadow_shade">#141A38</color>
+  <color name="color_box_shadow_base">#141A38</color>
   
 </resources>

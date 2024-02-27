@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 27 Feb 2024 19:00:24 GMT
+// Generated on Tue, 27 Feb 2024 23:03:46 GMT
 
 
 import UIKit
@@ -160,8 +160,8 @@ internal struct StyleDictionaryStruct {
     internal static let buttonSpaceMediumPaddingLeftAndRight = 32px
     internal static let buttonSpaceMediumPaddingTopAndBottom = 12px
     internal static let buttonTypographyMedium = [object Object]
-    internal static let colorBoxShadowBase = #B59DFC
-    internal static let colorBoxShadowShade = #B59DFC
+    internal static let colorBoxShadowBase = #141A38
+    internal static let colorBoxShadowShade = #141A38
     internal static let colorBrandPrimaryBlueCloud = #B6C9FF
     internal static let colorBrandPrimaryBlueCobalt = #1A31A9
     internal static let colorBrandPrimaryBlueSky = #3F59E4

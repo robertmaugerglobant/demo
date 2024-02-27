@@ -4,14 +4,14 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 27 Feb 2024 19:00:24 GMT
+// Generated on Tue, 27 Feb 2024 23:03:46 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
-    public static let boxShadowBase = #B59DFC
-    public static let boxShadowShade = #B59DFC
+    public static let boxShadowBase = #141A38
+    public static let boxShadowShade = #141A38
     public static let brandPrimaryBlueCloud = #B6C9FF
     public static let brandPrimaryBlueCobalt = #1A31A9
     public static let brandPrimaryBlueSky = #3F59E4
