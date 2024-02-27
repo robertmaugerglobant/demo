@@ -646,6 +646,16 @@
           "letterSpacing": "{letter-spacing.2}"
         },
         "type": "typography"
+      },
+      "Small": {
+        "value": {
+          "fontFamily": "{font-family.Primary}",
+          "fontWeight": "{font-weight.500}",
+          "fontSize": "{font-size.14}",
+          "lineHeight": "{line-height.100}",
+          "letterSpacing": "{letter-spacing.2}"
+        },
+        "type": "typography"
       }
     },
     "Code": {
@@ -676,6 +686,18 @@
           "fontSize": "{font-size.14}",
           "lineHeight": "{line-height.120}",
           "letterSpacing": "{letter-spacing.2}"
+        },
+        "type": "typography"
+      }
+    },
+    "Chips": {
+      "Small": {
+        "value": {
+          "fontFamily": "{font-family.mono}",
+          "fontWeight": "{font-weight.400}",
+          "fontSize": "{font-size.14}",
+          "lineHeight": "{line-height.120}",
+          "letterSpacing": "{letter-spacing.1}"
         },
         "type": "typography"
       }

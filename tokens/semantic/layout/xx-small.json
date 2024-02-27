@@ -1,0 +1,54 @@
+{
+  "Breakpoint-max": {
+    "value": "auto",
+    "type": "sizing"
+  },
+  "Breakpoint-min": {
+    "value": "390",
+    "type": "sizing"
+  },
+  "Outer-width-max": {
+    "value": "auto",
+    "type": "sizing"
+  },
+  "Outer-width-min": {
+    "value": "374",
+    "type": "sizing"
+  },
+  "Inner-content-max": {
+    "value": "auto",
+    "type": "sizing"
+  },
+  "Inner-content-min": {
+    "value": "342",
+    "type": "sizing"
+  },
+  "Extended-content-max": {
+    "value": "auto",
+    "type": "sizing"
+  },
+  "Extended-content-min": {
+    "value": "390",
+    "type": "sizing"
+  },
+  "Content-Margin": {
+    "value": "16",
+    "type": "sizing"
+  },
+  "Frame-Margin": {
+    "value": "8",
+    "type": "sizing"
+  },
+  "Gutter": {
+    "value": "16",
+    "type": "sizing"
+  },
+  "Columns": {
+    "value": "4",
+    "type": "sizing"
+  },
+  "Frame-Size": {
+    "value": "390",
+    "type": "sizing"
+  }
+}

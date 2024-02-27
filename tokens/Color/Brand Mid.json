@@ -24,7 +24,7 @@
     },
     "border": {
       "primary": {
-        "value": "{colors.Teal.500}",
+        "value": "{colors.Teal.300}",
         "type": "color"
       }
     },
@@ -136,6 +136,20 @@
             }
           }
         }
+      }
+    },
+    "accent": {
+      "primary": {
+        "value": "{colors.Neutral.50}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.Blue.450}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{colors.Neutral.850}",
+        "type": "color"
       }
     }
   }
