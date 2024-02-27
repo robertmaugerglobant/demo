@@ -12,23 +12,56 @@ const config = {
 
     try {
       const object = JSON.parse(contents);
+      console.log(filePath);
       
       let pathParts;
       if(filePath.includes("Brand Base")){
-        pathParts = "one-"
+        pathParts = "bran-base-"
       }
       else if(filePath.includes("Brand Dim Alt")){
-        pathParts = "two-"
+        pathParts = "brand-base-alt-"
       }
       else if(filePath.includes("Brand Dim")){
-        pathParts = "three-"
+        pathParts = "brand-dim-"
       }
       else if(filePath.includes("Brand Mid")){
-        pathParts = "four-"
+        pathParts = "brand-mid-"
       }
       else if(filePath.includes("Primary Base")){
-        pathParts = "five-"
+        pathParts = "primary-base-"
       }
+// -=-=-=-=-=-=
+else if(filePath.includes("large")){
+  pathParts = "large-"
+}
+else if(filePath.includes("medium")){
+  pathParts = "medium-"
+}
+else if(filePath.includes("small")){
+  console.log('SMALL');
+  pathParts = "small-"
+}
+else if(filePath.includes("x/-large")){
+  console.log('X LARGE');
+  pathParts = "x-large-"
+}
+else if(filePath.includes("x-small")){
+  pathParts = "x-small-"
+}
+else if(filePath.includes("xx-large")){
+  pathParts = "xx-large-"
+}
+else if(filePath.includes("xx-small")){
+  pathParts = "xx-small-"
+}
+
+
+
+
+// -=-=-=-=-=
+
+
+
       else{
         pathParts = ""
       }
