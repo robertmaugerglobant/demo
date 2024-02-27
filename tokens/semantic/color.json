@@ -135,6 +135,27 @@
           "type": "color"
         }
       }
-    }
+    },
+    "content": {
+        "primary-inverse": {
+          "value": "{colors.Purple.250}",
+          "type": "color"
+        }  
+    },
+    "box-shadow": {
+      "shade": {
+        "value": "{colors.Purple.250}",
+        "type": "color"
+      },
+      "base": {
+        "value": "{colors.Purple.250}",
+        "type": "color"
+      }   
+  }
+
+
+
+
+  
   }
 }

@@ -11,56 +11,27 @@ const config = {
     parse: ({contents, filePath}) => {
 
     try {
-      const object = JSON.parse(contents);
-      console.log(filePath);
-      
-      let pathParts;
-      if(filePath.includes("Brand Base")){
-        pathParts = "bran-base-"
+     const object = JSON.parse(contents);
+     let fileName = filePath.replace(/^.*[\\/]/, '');
+     let myArray = fileName.split(".");
+     myArray = myArray[0];
+     myArray = myArray.split(" ").join("");;
+     let pathParts; 
+      if(filePath.includes("Brand Base") 
+      || filePath.includes("Brand Dim Alt") 
+      || filePath.includes("Brand Dim")
+      || filePath.includes("Brand Mid") 
+      || filePath.includes("Primary Base") 
+      || filePath.includes("Primary Base") 
+      || fileName === 'large.json' 
+      || fileName === 'medium.json' 
+      || fileName === 'small.json' 
+      || fileName === 'x-large.json' 
+      || fileName === 'x-small.json' 
+      || fileName === 'xx-large.json' 
+      || fileName === 'xx-small.json'){
+        pathParts = myArray + "-"
       }
-      else if(filePath.includes("Brand Dim Alt")){
-        pathParts = "brand-base-alt-"
-      }
-      else if(filePath.includes("Brand Dim")){
-        pathParts = "brand-dim-"
-      }
-      else if(filePath.includes("Brand Mid")){
-        pathParts = "brand-mid-"
-      }
-      else if(filePath.includes("Primary Base")){
-        pathParts = "primary-base-"
-      }
-// -=-=-=-=-=-=
-else if(filePath.includes("large")){
-  pathParts = "large-"
-}
-else if(filePath.includes("medium")){
-  pathParts = "medium-"
-}
-else if(filePath.includes("small")){
-  console.log('SMALL');
-  pathParts = "small-"
-}
-else if(filePath.includes("x/-large")){
-  console.log('X LARGE');
-  pathParts = "x-large-"
-}
-else if(filePath.includes("x-small")){
-  pathParts = "x-small-"
-}
-else if(filePath.includes("xx-large")){
-  pathParts = "xx-large-"
-}
-else if(filePath.includes("xx-small")){
-  pathParts = "xx-small-"
-}
-
-
-
-
-// -=-=-=-=-=
-
-
 
       else{
         pathParts = ""
@@ -69,8 +40,7 @@ else if(filePath.includes("xx-small")){
       const output = {};
 
       for (const key in object) {
-        if (object.hasOwnProperty(key) && !filePath.includes("box-shadow") ) {
-          console.log(key);
+        if (object.hasOwnProperty(key) ) {
           const element = object[key];
           output[`${pathParts}${key}`] = element;
         }
@@ -89,9 +59,13 @@ else if(filePath.includes("xx-small")){
        "buildPath": "build/scss/",
        "files": [{
          "destination": "_variables.scss",
-         "format": "scss/variables"
+         "format": "scss/variables",
+         "options": {
+          outputReferences: false
+        }
        }]
-     },
+     }
+     ,
      "android": {
        "transformGroup": "android",
        "buildPath": "build/android/",
