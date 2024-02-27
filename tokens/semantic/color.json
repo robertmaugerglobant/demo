@@ -144,18 +144,13 @@
     },
     "box-shadow": {
       "shade": {
-        "value": "{colors.Purple.250}",
+        "value": "{colors.Blue.800}",
         "type": "color"
       },
       "base": {
-        "value": "{colors.Purple.250}",
+        "value": "{colors.Blue.800}",
         "type": "color"
       }   
   }
-
-
-
-
-  
   }
 }
