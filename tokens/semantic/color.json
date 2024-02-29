@@ -135,7 +135,7 @@
           "type": "color"
         }
       }
-    },
+},
     "content": {
         "primary-inverse": {
           "value": "{colors.Purple.250}",
@@ -151,6 +151,6 @@
         "value": "{colors.Blue.800}",
         "type": "color"
       }   
-  }
+    }
   }
 }

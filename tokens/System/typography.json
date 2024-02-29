@@ -198,6 +198,41 @@
           },
           "type": "typography"
         }
+      },
+      "Blockquote": {
+        "Blockquote-Large": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.48}",
+            "lineHeight": "{line-height.116}",
+            "letterSpacing": "{letter-spacing.neg2}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        },
+        "Blockquote-Medium": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.40}",
+            "lineHeight": "{line-height.120}",
+            "letterSpacing": "{letter-spacing.neg2}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        },
+        "Blockquote-Small": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.32}",
+            "lineHeight": "{line-height.136}",
+            "letterSpacing": "{letter-spacing.neg1}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        }
       }
     },
     "Tablet": {
@@ -398,6 +433,41 @@
           },
           "type": "typography"
         }
+      },
+      "Blockquote": {
+        "Blockquote-Large": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.40}",
+            "lineHeight": "{line-height.120}",
+            "letterSpacing": "{letter-spacing.neg2}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        },
+        "Blockquote-Medium": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.40}",
+            "lineHeight": "{line-height.120}",
+            "letterSpacing": "{letter-spacing.neg2}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        },
+        "Blockquote-Small": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.24}",
+            "lineHeight": "{line-height.135}",
+            "letterSpacing": "{letter-spacing.0}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        }
       }
     },
     "Mobile": {
@@ -597,6 +667,41 @@
             "letterSpacing": "{letter-spacing.1pt5}"
           },
           "type": "typography"
+        }
+      },
+      "Blockquote": {
+        "Blockquote-Large": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.32}",
+            "lineHeight": "{line-height.136}",
+            "letterSpacing": "{letter-spacing.neg1}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        },
+        "Blockquote-Medium": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.24}",
+            "lineHeight": "{line-height.135}",
+            "letterSpacing": "{letter-spacing.0}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
+        },
+        "Blockquote-Small": {
+          "value": {
+            "fontFamily": "{font-family.Primary}",
+            "fontWeight": "{font-weight.400}",
+            "fontSize": "{font-size.24}",
+            "lineHeight": "{line-height.135}",
+            "letterSpacing": "{letter-spacing.0}"
+          },
+          "type": "typography",
+          "description": "Hanging Punctuation - True"
         }
       }
     }

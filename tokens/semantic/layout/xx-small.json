@@ -1,54 +1,42 @@
 {
-  "Breakpoint-max": {
+  "Frame-Size": {
     "value": "auto",
     "type": "sizing"
   },
-  "Breakpoint-min": {
-    "value": "390",
+  "Breakpoint-max": {
+    "value": "576px",
     "type": "sizing"
   },
   "Outer-width-max": {
     "value": "auto",
     "type": "sizing"
   },
-  "Outer-width-min": {
-    "value": "374",
-    "type": "sizing"
-  },
   "Inner-content-max": {
     "value": "auto",
-    "type": "sizing"
-  },
-  "Inner-content-min": {
-    "value": "342",
     "type": "sizing"
   },
   "Extended-content-max": {
     "value": "auto",
     "type": "sizing"
   },
-  "Extended-content-min": {
-    "value": "390",
-    "type": "sizing"
-  },
   "Content-Margin": {
-    "value": "16",
+    "value": "16px",
     "type": "sizing"
   },
   "Frame-Margin": {
-    "value": "8",
+    "value": "8px",
+    "type": "sizing"
+  },
+  "Page-Margin": {
+    "value": "0",
     "type": "sizing"
   },
   "Gutter": {
-    "value": "16",
+    "value": "16px",
     "type": "sizing"
   },
   "Columns": {
     "value": "4",
-    "type": "sizing"
-  },
-  "Frame-Size": {
-    "value": "390",
     "type": "sizing"
   }
 }
