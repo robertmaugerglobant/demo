@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 27 Feb 2024 19:00:24 GMT
+// Generated on Thu, 29 Feb 2024 16:05:09 GMT
 
 
 import UIKit
@@ -152,16 +152,8 @@ public class StyleDictionaryClass {
     public static let brandMidColorSurfaceGradient = linear-gradient(135deg, #F6F1E7 0%, #4CB7A3 60%, #096256 90%)
     public static let brandMidColorSurfaceLight = #5CBFAD
     public static let brandMidColorSurfaceMid = #309C8A
-    public static let buttonBorderRadiusMedium = 6px
-    public static let buttonColorContentPrimaryResting = #B59DFC
-    public static let buttonColorSurfacePrimaryResting = #D92300
-    public static let buttonSizeMediumMinHeight = 48px
-    public static let buttonSpaceMediumGap = 8px
-    public static let buttonSpaceMediumPaddingLeftAndRight = 32px
-    public static let buttonSpaceMediumPaddingTopAndBottom = 12px
-    public static let buttonTypographyMedium = [object Object]
-    public static let colorBoxShadowBase = #B59DFC
-    public static let colorBoxShadowShade = #B59DFC
+    public static let colorBoxShadowBase = #141A38
+    public static let colorBoxShadowShade = #141A38
     public static let colorBrandPrimaryBlueCloud = #B6C9FF
     public static let colorBrandPrimaryBlueCobalt = #1A31A9
     public static let colorBrandPrimaryBlueSky = #3F59E4
