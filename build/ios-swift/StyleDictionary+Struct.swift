@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 27 Feb 2024 23:12:03 GMT
+// Generated on Thu, 29 Feb 2024 16:03:57 GMT
 
 
 import UIKit
@@ -152,14 +152,6 @@ internal struct StyleDictionaryStruct {
     internal static let brandMidColorSurfaceGradient = linear-gradient(135deg, #F6F1E7 0%, #4CB7A3 60%, #096256 90%)
     internal static let brandMidColorSurfaceLight = #5CBFAD
     internal static let brandMidColorSurfaceMid = #309C8A
-    internal static let buttonBorderRadiusMedium = 6px
-    internal static let buttonColorContentPrimaryResting = #B59DFC
-    internal static let buttonColorSurfacePrimaryResting = #D92300
-    internal static let buttonSizeMediumMinHeight = 48px
-    internal static let buttonSpaceMediumGap = 8px
-    internal static let buttonSpaceMediumPaddingLeftAndRight = 32px
-    internal static let buttonSpaceMediumPaddingTopAndBottom = 12px
-    internal static let buttonTypographyMedium = [object Object]
     internal static let colorBoxShadowBase = #141A38
     internal static let colorBoxShadowShade = #141A38
     internal static let colorBrandPrimaryBlueCloud = #B6C9FF
