@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 29 Feb 2024 16:05:09 GMT
+// Generated on Thu, 29 Feb 2024 16:39:03 GMT
 
 
 import UIKit
@@ -376,6 +376,9 @@ internal struct StyleDictionaryStruct {
     internal static let copyCopyRight = Copyright © 2024 Okta. All rights reserved.
     internal static let copyHeaderMessage = Registration for Oktane is open!
     internal static let copySignUp = Sign up
+    internal static let deviceDesktopBlockquoteBlockquoteLarge = [object Object]
+    internal static let deviceDesktopBlockquoteBlockquoteMedium = [object Object]
+    internal static let deviceDesktopBlockquoteBlockquoteSmall = [object Object]
     internal static let deviceDesktopBodyBody1 = [object Object]
     internal static let deviceDesktopBodyBody2 = [object Object]
     internal static let deviceDesktopBodyBody3 = [object Object]
@@ -395,6 +398,9 @@ internal struct StyleDictionaryStruct {
     internal static let deviceDesktopTitleTitle2 = [object Object]
     internal static let deviceDesktopTitleTitle3 = [object Object]
     internal static let deviceDesktopTitleTitle4 = [object Object]
+    internal static let deviceMobileBlockquoteBlockquoteLarge = [object Object]
+    internal static let deviceMobileBlockquoteBlockquoteMedium = [object Object]
+    internal static let deviceMobileBlockquoteBlockquoteSmall = [object Object]
     internal static let deviceMobileBodyBody1 = [object Object]
     internal static let deviceMobileBodyBody2 = [object Object]
     internal static let deviceMobileBodyBody3 = [object Object]
@@ -414,6 +420,9 @@ internal struct StyleDictionaryStruct {
     internal static let deviceMobileTitleTitle2 = [object Object]
     internal static let deviceMobileTitleTitle3 = [object Object]
     internal static let deviceMobileTitleTitle4 = [object Object]
+    internal static let deviceTabletBlockquoteBlockquoteLarge = [object Object]
+    internal static let deviceTabletBlockquoteBlockquoteMedium = [object Object]
+    internal static let deviceTabletBlockquoteBlockquoteSmall = [object Object]
     internal static let deviceTabletBodyBody1 = [object Object]
     internal static let deviceTabletBodyBody2 = [object Object]
     internal static let deviceTabletBodyBody3 = [object Object]
@@ -592,19 +601,16 @@ internal struct StyleDictionaryStruct {
     internal static let lineHeight140 = 140%
     internal static let lineHeight150 = 150%
     internal static let lineHeight160 = 160%
-    internal static let mediumBreakpointMax = 992
-    internal static let mediumBreakpointMin = 769
+    internal static let mediumBreakpointMax = 992px
     internal static let mediumColumns = 9
-    internal static let mediumContentMargin = 48
-    internal static let mediumExtendedContentMax = 990
-    internal static let mediumExtendedContentMin = 767
-    internal static let mediumFrameMargin = 32
-    internal static let mediumFrameSize = 992
-    internal static let mediumGutter = 24
-    internal static let mediumInnerContentMax = 830
-    internal static let mediumInnerContentMin = 655
-    internal static let mediumOuterWidthMax = 926
-    internal static let mediumOuterWidthMin = 719
+    internal static let mediumContentMargin = 64px
+    internal static let mediumExtendedContentMax = 1002px
+    internal static let mediumFrameMargin = 24px
+    internal static let mediumFrameSize = 1050px
+    internal static let mediumGutter = 24px
+    internal static let mediumInnerContentMax = 874px
+    internal static let mediumOuterWidthMax = 959px
+    internal static let mediumPageMargin = 0
     internal static let opacities0 = 0.0
     internal static let opacities10 = 0.100
     internal static let opacities100 = 1.0
@@ -716,30 +722,24 @@ internal struct StyleDictionaryStruct {
     internal static let xSmallInnerContentMin = 342
     internal static let xSmallOuterWidthMax = 542
     internal static let xSmallOuterWidthMin = 358
-    internal static let xxLargeBreakpointMax = 1538
-    internal static let xxLargeBreakpointMin = 1401
+    internal static let xxLargeBreakpointMax = 1538px
     internal static let xxLargeColumns = 12
-    internal static let xxLargeContentMargin = 64
-    internal static let xxLargeExtendedContentMax = 1536
-    internal static let xxLargeExtendedContentMin = 1399
-    internal static let xxLargeFrameMargin = 48
-    internal static let xxLargeFrameSize = 1600
-    internal static let xxLargeGutter = 32
-    internal static let xxLargeInnerContentMax = 1312
-    internal static let xxLargeInnerContentMin = 1175
-    internal static let xxLargeOuterWidthMax = 1440
-    internal static let xxLargeOuterWidthMin = 1303
-    internal static let xxSmallBreakpointMax = auto
-    internal static let xxSmallBreakpointMin = 390
+    internal static let xxLargeContentMargin = 64px
+    internal static let xxLargeExtendedContentMax = 1536px
+    internal static let xxLargeFrameMargin = 32px
+    internal static let xxLargeFrameSize = 1600px
+    internal static let xxLargeGutter = 32px
+    internal static let xxLargeInnerContentMax = 1344px
+    internal static let xxLargeOuterWidthMax = 1440px
+    internal static let xxLargePageMargin = 32px
+    internal static let xxSmallBreakpointMax = 576px
     internal static let xxSmallColumns = 4
-    internal static let xxSmallContentMargin = 16
+    internal static let xxSmallContentMargin = 16px
     internal static let xxSmallExtendedContentMax = auto
-    internal static let xxSmallExtendedContentMin = 390
-    internal static let xxSmallFrameMargin = 8
-    internal static let xxSmallFrameSize = 390
-    internal static let xxSmallGutter = 16
+    internal static let xxSmallFrameMargin = 8px
+    internal static let xxSmallFrameSize = auto
+    internal static let xxSmallGutter = 16px
     internal static let xxSmallInnerContentMax = auto
-    internal static let xxSmallInnerContentMin = 342
     internal static let xxSmallOuterWidthMax = auto
-    internal static let xxSmallOuterWidthMin = 374
+    internal static let xxSmallPageMargin = 0
 }

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 29 Feb 2024 16:05:09 GMT
+// Generated on Thu, 29 Feb 2024 16:39:02 GMT
 
 
 import UIKit
@@ -376,6 +376,9 @@ public class StyleDictionaryClass {
     public static let copyCopyRight = Copyright © 2024 Okta. All rights reserved.
     public static let copyHeaderMessage = Registration for Oktane is open!
     public static let copySignUp = Sign up
+    public static let deviceDesktopBlockquoteBlockquoteLarge = [object Object]
+    public static let deviceDesktopBlockquoteBlockquoteMedium = [object Object]
+    public static let deviceDesktopBlockquoteBlockquoteSmall = [object Object]
     public static let deviceDesktopBodyBody1 = [object Object]
     public static let deviceDesktopBodyBody2 = [object Object]
     public static let deviceDesktopBodyBody3 = [object Object]
@@ -395,6 +398,9 @@ public class StyleDictionaryClass {
     public static let deviceDesktopTitleTitle2 = [object Object]
     public static let deviceDesktopTitleTitle3 = [object Object]
     public static let deviceDesktopTitleTitle4 = [object Object]
+    public static let deviceMobileBlockquoteBlockquoteLarge = [object Object]
+    public static let deviceMobileBlockquoteBlockquoteMedium = [object Object]
+    public static let deviceMobileBlockquoteBlockquoteSmall = [object Object]
     public static let deviceMobileBodyBody1 = [object Object]
     public static let deviceMobileBodyBody2 = [object Object]
     public static let deviceMobileBodyBody3 = [object Object]
@@ -414,6 +420,9 @@ public class StyleDictionaryClass {
     public static let deviceMobileTitleTitle2 = [object Object]
     public static let deviceMobileTitleTitle3 = [object Object]
     public static let deviceMobileTitleTitle4 = [object Object]
+    public static let deviceTabletBlockquoteBlockquoteLarge = [object Object]
+    public static let deviceTabletBlockquoteBlockquoteMedium = [object Object]
+    public static let deviceTabletBlockquoteBlockquoteSmall = [object Object]
     public static let deviceTabletBodyBody1 = [object Object]
     public static let deviceTabletBodyBody2 = [object Object]
     public static let deviceTabletBodyBody3 = [object Object]
@@ -592,19 +601,16 @@ public class StyleDictionaryClass {
     public static let lineHeight140 = 140%
     public static let lineHeight150 = 150%
     public static let lineHeight160 = 160%
-    public static let mediumBreakpointMax = 992
-    public static let mediumBreakpointMin = 769
+    public static let mediumBreakpointMax = 992px
     public static let mediumColumns = 9
-    public static let mediumContentMargin = 48
-    public static let mediumExtendedContentMax = 990
-    public static let mediumExtendedContentMin = 767
-    public static let mediumFrameMargin = 32
-    public static let mediumFrameSize = 992
-    public static let mediumGutter = 24
-    public static let mediumInnerContentMax = 830
-    public static let mediumInnerContentMin = 655
-    public static let mediumOuterWidthMax = 926
-    public static let mediumOuterWidthMin = 719
+    public static let mediumContentMargin = 64px
+    public static let mediumExtendedContentMax = 1002px
+    public static let mediumFrameMargin = 24px
+    public static let mediumFrameSize = 1050px
+    public static let mediumGutter = 24px
+    public static let mediumInnerContentMax = 874px
+    public static let mediumOuterWidthMax = 959px
+    public static let mediumPageMargin = 0
     public static let opacities0 = 0.0
     public static let opacities10 = 0.100
     public static let opacities100 = 1.0
@@ -716,30 +722,24 @@ public class StyleDictionaryClass {
     public static let xSmallInnerContentMin = 342
     public static let xSmallOuterWidthMax = 542
     public static let xSmallOuterWidthMin = 358
-    public static let xxLargeBreakpointMax = 1538
-    public static let xxLargeBreakpointMin = 1401
+    public static let xxLargeBreakpointMax = 1538px
     public static let xxLargeColumns = 12
-    public static let xxLargeContentMargin = 64
-    public static let xxLargeExtendedContentMax = 1536
-    public static let xxLargeExtendedContentMin = 1399
-    public static let xxLargeFrameMargin = 48
-    public static let xxLargeFrameSize = 1600
-    public static let xxLargeGutter = 32
-    public static let xxLargeInnerContentMax = 1312
-    public static let xxLargeInnerContentMin = 1175
-    public static let xxLargeOuterWidthMax = 1440
-    public static let xxLargeOuterWidthMin = 1303
-    public static let xxSmallBreakpointMax = auto
-    public static let xxSmallBreakpointMin = 390
+    public static let xxLargeContentMargin = 64px
+    public static let xxLargeExtendedContentMax = 1536px
+    public static let xxLargeFrameMargin = 32px
+    public static let xxLargeFrameSize = 1600px
+    public static let xxLargeGutter = 32px
+    public static let xxLargeInnerContentMax = 1344px
+    public static let xxLargeOuterWidthMax = 1440px
+    public static let xxLargePageMargin = 32px
+    public static let xxSmallBreakpointMax = 576px
     public static let xxSmallColumns = 4
-    public static let xxSmallContentMargin = 16
+    public static let xxSmallContentMargin = 16px
     public static let xxSmallExtendedContentMax = auto
-    public static let xxSmallExtendedContentMin = 390
-    public static let xxSmallFrameMargin = 8
-    public static let xxSmallFrameSize = 390
-    public static let xxSmallGutter = 16
+    public static let xxSmallFrameMargin = 8px
+    public static let xxSmallFrameSize = auto
+    public static let xxSmallGutter = 16px
     public static let xxSmallInnerContentMax = auto
-    public static let xxSmallInnerContentMin = 342
     public static let xxSmallOuterWidthMax = auto
-    public static let xxSmallOuterWidthMin = 374
+    public static let xxSmallPageMargin = 0
 }
